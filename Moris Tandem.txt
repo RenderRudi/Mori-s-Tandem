@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moris' Tandem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .booking-button {
+      display: inline-block;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .booking-button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.vistaprint.de/logomaker/download/share/67d5a1d9c2c14c44e4b90dd9" alt="Moris' Tandem Logo">
+    <h1>Moris' Tandem</h1>
+  </header>
+  <div class="container">
+    <section class="welcome">
+      <h2>Herzlich Willkommen!</h2>
+      <p>
+        Willkommen bei Moris' Tandem! Hier bieten wir Tandemfahrten für beeinträchtigte Kinder, Jugendliche und Menschen mit Unterstützungsbedarf an.
+        <strong>[Platzhalter: Hier kannst du deine persönliche Geschichte über Moritz und das Tandem einfügen.]</strong>
+      </p>
+    </section>
+    <section class="pricing">
+      <h2>Preise & Angebote</h2>
+      <ul>
+        <li>Tandemfahrt (30 Minuten): [Preis]</li>
+        <li>Tandemfahrt (60 Minuten): [Preis]</li>
+        <li>Gruppenangebot: [Preis]</li>
+      </ul>
+    </section>
+    <section class="booking">
+      <h2>Jetzt Buchen</h2>
+      <a href="#booking-form" class="booking-button">Buchen</a>
+    </section>
+    <section class="booking-form" id="booking-form">
+      <h2>Buchungsformular</h2>
+      <p>[Platzhalter: Hier soll das Buchungsformular integriert werden]</p>
+    </section>
+  </div>
+  <footer>
+    <p>Kontakt: [Platzhalter für Kontaktinformationen]</p>
+  </footer>
+</body>
+</html>
